@@ -1,0 +1,141 @@
+cards:
+  - question: Service for sending alerts from various services?
+    answer: SNS (Simple Notification Service)
+  - question: What AWS infrastructure component does CloudFront use for low latency delivery?
+    answer: Edge locations
+  - question: Subnet security feature to protect against traffic?
+    answer: NACL (Network Access Control List)
+  - question: What is AWS Trusted Advisor?
+    answer: Online resource to optimize your AWS account. Examples include reducing cost, increasing performance, and improving security.
+  - question: Who controls data security for an AWS account?
+    answer: The account owner
+  - question: What does AWS EMR stand for and what is it used for?
+    answer: Elastic MapReduce. It's used for running big data workflows.
+  - question: Services for connecting on-prem to cloud?
+    answer: |-
+      Direct Connect - dedicated connection between AWS and site
+
+      AWS VPN - Site to site VPN between AWS and on-prem
+  - question: What IAM concept is used to give an EC2 instance access to another service (like S3)?
+    answer: IAM Roles
+  - question: What does NACL stand for?
+    answer: Network Access Control List. Basically a firewall in front of a subnet.
+  - question: What is TAM?
+    answer: |-
+      Technical Account Manager.
+
+      The help an enterprise ramp up and not screw up while they get started.
+  - question: Data limits for Snow* (Snowball, Snowcone, Snowmobile)?
+    answer: |-
+      Snowcone: 8 TB
+      Snowball: 80 TB
+      Snowmobile: 100 PB
+  - question: Service best suited for efficiently streaming video across the globe?
+    answer: CloudFront
+  - question: What are AWS Sheild and Advanced Shield
+    answer: DDos Protection
+  - question: Where/how to report illegal activity on AWS?
+    answer: abuse@amazonaws.com
+  - question: Reserved EC2 vs partial upfront reserved EC2?
+    answer: Partial upfront gets a discount
+  - question: "True/False: AZs are a single point of failure"
+    answer: False. An AZ is often multiple datacenters in one location
+  - question: How can you get data into S3 Glacier
+    answer: APIs or S3 lifecycle policies. Not from the console directly!
+  - question: RDS feature for cross-region redundancy?
+    answer: Creating read replicas
+  - question: Service for calculating/predicting cost?
+    answer: AWS Pricing Calculator
+  - question: What is consolidated billing?
+    answer: Billing info of multiple accounts in visible under one organization
+  - question: What do you call a formal statement of multiple permissions?
+    answer: A policy. It's JSON that specifies what a user can do on AWS
+  - question: Security groups vs NACL for allowing/denying traffic?
+    answer: |-
+      NACL = Allow and deny
+      SG = Allow only
+  - question: Service for generating compliance reports?
+    answer: AWS artifact
+  - question: 5 categories that Trusted Advisor covers?
+    answer: |-
+      Performance
+      Cost optimization
+      Security
+      Fault tolerance
+      Service limits
+  - question: What attributes determine the cost of an EC2 instance?
+    answer: |-
+      Instance type
+      Location
+      AMI type
+  - question: What are four disaster recovery options in the cloud?
+    answer: |-
+      Backup and restore
+      Pilot light
+      Warm standby
+      Multi-site
+  - question: Does pentesting an EC2 instance require approval?
+    answer: "No"
+  - question: What are three types of cloud deployments?
+    answer: |-
+      Public cloud
+      Private cloud
+      Hybrid cloud
+  - question: Which support plans have 24/7 customer support?
+    answer: All of them
+  - question: What is AWS Redshift?
+    answer: A hosted data warehouse
+  - question: What is a financial benefit of moving on-prem to AWS?
+    answer: You replace up fron capital expense with low variable cost
+  - question: What are the AWS Snow* (Snowcone, Snowball, and Snowmobile) used for?
+    answer: Large data transfer to AWS
+  - question: What RDS features allow for better availability?
+    answer: Read replicas and Multi-AZ
+  - question: What are the four levels of premium support?
+    answer: |-
+      In order from least expensive to most:
+
+      Developer
+      Business
+      Enterprise On Ramp
+      Enterprise
+  - question: How to audit configurations of AWS resources?
+    answer: AWS Config
+  - question: What is AWS's managed NoSQL DB?
+    answer: DynamoDB
+  - question: What does AWS do to make EBS volumes less prone to failure?
+    answer: Replication within the same AZ
+  - question: What feature allows you to access an EC2 instance without key pairs?
+    answer: Sessions Manager
+  - question: What AWS concept is the idea of a "golden image"?
+    answer: AMIs
+  - question: What is AWS DMS and what does it stand for?
+    answer: Data Migration Service. It's used to migrate DBs to AWS while minimizing downtime.
+  - question: What is AWS Macie?
+    answer: Security evaluation on your account. An example would be checking S3 buckets for security issues related to their policies.
+  - question: Do VPCs span multiple AZs?
+    answer: Yes, all AZs in a region
+  - question: What service lets you analyze EC2 instances against security templates?
+    answer: AWS Inspector
+  - question: What are some components of the AWS assurance program?
+    answer: Compliance with laws and regulations, as well as certificates and attestations (e.g. SOC2, PCI)
+  - question: What is the RDS failover option called?
+    answer: AWS Multi AZ
+  - question: What is Amazon's BI tool?
+    answer: Quicksight
+  - question: Are AWS services PCI compliant?
+    answer: Some, but not all
+  - question: "True/False: AWS is responsible for security of managed \"foundation services\", like RDS"
+    answer: "True"
+  - question: What is S3 Transfer Acceleration?
+    answer: Enables fast transfer over long distances. It uses the CloudFront Edge network.
+  - question: What are the four core IaaS on AWS?
+    answer: |-
+      Compute (EC2, Lambda)
+      Networking (VPCs)
+      Storage (S3, EBS)
+      Databases (RDS, Aurora)
+  - question: What service is used for analyzing costs and usage?
+    answer: Cost Explorer
+
+    
