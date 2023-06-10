@@ -86,7 +86,7 @@ cards:
   - question: What is AWS Redshift?
     answer: A hosted data warehouse
   - question: What is a financial benefit of moving on-prem to AWS?
-    answer: You replace up fron capital expense with low variable cost
+    answer: You replace up front capital expense with low variable cost
   - question: What are the AWS Snow* (Snowcone, Snowball, and Snowmobile) used for?
     answer: Large data transfer to AWS
   - question: What RDS features allow for better availability?
